@@ -1,6 +1,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+.seletor-para-algum-widget {
+    box-sizing: content-box;
+  }
 
 header{
    background:#BBBBBB; 
