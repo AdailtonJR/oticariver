@@ -1,9 +1,18 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-.seletor-para-algum-widget {
-    box-sizing: content-box;
-  }
+
+/*stilo carousel bootstrap*/
+.container-fluid{
+    padding: 0;
+}
+#carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item{
+    height: 90vh;
+}
+
+
+
+/*fim do stilo carousel bootstrap */
 
 header{
    background:#BBBBBB; 
@@ -45,7 +54,24 @@ nav a{
 
 nav a:hover{
     color: #c78c19;
-    text-decoration: underline;
+    text-decoration:none;
+}
+
+.galeria-img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #ffffff;
+    width: 220px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    border-radius: 10px;
+    -webkit-transition: all 0.5s ease-in;
+}
+
+.galeria-img:hover{
+    -webkit-transform: scale(1.5); 
 }
 
 .produtos{
@@ -63,12 +89,7 @@ nav a:hover{
     width: 220px;
     background-color: #ffffff;
     box-shadow: 1px 1px 3px rgba(0,0,0,.4);
-    border-radius: 10px;
-    -webkit-transition: all 0.5s ease-in;
-}
-
-.produto-img:hover{
-    -webkit-transform: scale(1.5); 
+   
 }
 
 .produtos li{
@@ -138,18 +159,18 @@ form{
 form label, form legend{
     display: block;
     font-size: 20px;
-    margin: 0 0 10px 50px;
+    margin: 0 0 10px 200px;
 }
 
 .input-padrao {
     display: block;
-    margin: 0 0 20px 150px;
+    margin: 0 0 20px 400px;
     padding: 10px 25px;
     width: 50%;
 }
 
 .checkbox{
-    margin: 20px 0;
+    margin: 20px 190px;
 }
 
 .enviar{
@@ -160,9 +181,10 @@ form label, form legend{
     font-weight: bold;
     font-size: 18px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: 1s all; 
     cursor: pointer;
+    margin-left:35%
 }
 
 .enviar:hover{
@@ -257,10 +279,10 @@ td , th{
 
 .itens {
     line-height: 1.5;
-}
-
-.itens:first-child{
-    font-weight: bold;
+    padding:10px;
+    margin-left:50%;
+    line-height: 1.5;
+    font-weight: bold
 }
 
 .itens:before{
