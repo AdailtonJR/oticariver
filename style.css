@@ -126,12 +126,6 @@ nav a:hover{
     font-size: 18px;
 }
 
-.produto-preco{
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
 footer{
     text-align: center;
     background: url("img/bg.jpg");
@@ -305,39 +299,53 @@ td , th{
     margin: 1em auto;
 }
 
-@media screen and (max-width: 480px){
-   .caixa, .principal, .conteudos-beneficios, .mapa-conteudo, .video{
-     width: auto;
-   }
+@media  screen and (max-width: 480px){
+/* responsividade do home*/
+    header{
+        width: 900px;
+    }
+    .caixa, .principal, .conteudos-beneficios, .mapa-conteudo{
+      width:900px;
+    }
 
-   h1{
-    text-align: center;
-   }
+    .container-fluid{
+        width: 900px;
+    }
 
-   nav{
-     position: static;
-   }
 
-   .lista-beneficios, .imagem-beneficios{
-    width: 100%;
-   }
+    .logo{
+        margin:20px;
+      }
 
-   .produtos{
-    width:100%;
-   }
-   .produtos li, .produots h2, .produto-descricao{
-        display: block;
-        width: 100%;
-   }
-   .input-padrao{
-        display:block;
-        padding:15px 25px;
-        margin:10px 5px 20px;
-        width:85%;
-   }
+      nav{
+        position:absolute;
+      }
+ 
+    .beneficios{
+        width: 900px;
+    }
 
-    select{
-    width:50%;
+    .imagem-beneficios{
+        width:55%;
+    }
+
+    .itens{
+        margin:10px
+        }
+     
+ 
+    .produtos{
+     width:100%;
+    }
+    .produtos li, .produtos h2, .produto-descricao{
+         display: block;
+         width: 100%;
+    }
+    .input-padrao{
+         display:block;
+         padding:15px 25px;
+         margin:10px 5px 20px;
+         width:85%;
     }
 
    .enviar{
@@ -346,5 +354,42 @@ td , th{
 
     table{
         width:100%;
+    }
+
+    .mapa{
+        width:900px;
+    }
+    .video{
+        margin:150px;
+        padding:5px;
+        }
+        footer{
+            width:900px;
+        }
+    /*fim da responsividade do home*/
+
+    .produtos li{
+        width:890px;
+        height:500px;
+        
+    }
+        .produto-img{
+        width:300px;
+        height:350px;
+        padding:20px;
+        
+    }
+    .galeria-img{
+        width:600px ;
+        height:370px ;
+       margin-left: 100px;
+    }
+
+    form{
+        width:500px;
+        margin-left:200px;
+    }
+    .enviar{
+        margin-left:auto;
     }
 }
