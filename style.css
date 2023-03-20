@@ -299,7 +299,7 @@ td , th{
     margin: 1em auto;
 }
 
-@media  screen and (max-width: 480px){
+@media only screen and (max-device-width: 900px){
 /* responsividade do home*/
     header{
         width: 900px;
