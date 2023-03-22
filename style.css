@@ -146,48 +146,13 @@ footer a{
 }
 
 form{
+    height: 150px;
     margin: 40px 0;
     background: linear-gradient(#FEFEFE, #888888);
 }
 
-form label, form legend{
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px 200px;
-}
-
-.input-padrao {
-    display: block;
-    margin: 0 0 20px 400px;
-    padding: 10px 25px;
-    width: 50%;
-}
-
 .checkbox{
     margin: 20px 190px;
-}
-
-.enviar{
-    width: 40%;
-    padding: 15px 0;
-    background: orange;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
-    border-radius: 10px;
-    transition: 1s all; 
-    cursor: pointer;
-    margin-left:35%
-}
-
-.enviar:hover{
-    background: darkorange;
-    transform: scale(1.2);
-}
-table{
-    width: 30%;
-    margin: 20px 0 40px;
 }
 
 thead{
@@ -299,6 +264,8 @@ td , th{
     margin: 1em auto;
 }
 
+
+
 @media only screen and (max-device-width: 900px){
 /* responsividade do home*/
     header{
@@ -389,7 +356,5 @@ td , th{
         width:500px;
         margin-left:200px;
     }
-    .enviar{
-        margin-left:auto;
-    }
+    
 }
